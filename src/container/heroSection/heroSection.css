@@ -1,0 +1,9 @@
+.hero-section {
+  position: relative;
+  height: 30em;
+  background: url('/src/assets/banner.jpg') center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}

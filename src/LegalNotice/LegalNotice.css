@@ -1,0 +1,46 @@
+.legacy {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 15px;
+  font-size: 0.9em;
+}
+
+.legacy h1 {
+  display: flex;
+  justify-content: center;
+  color: var(--color-primary);
+}
+
+.legacy h2, h3 {
+  color: var(--color-primary);
+  margin-top: 1em;
+}
+
+.legacy span {
+  color: var(--color-primary-variant);
+}
+
+.legacy p {
+  margin-top: 1em;
+  text-align: justify;
+}
+
+.legacy li {
+  list-style:inside;
+  margin: 0.5em;
+}
+
+/* ============== MEDIA QUERIES (SMALL DEVICES) =============== */
+
+@media screen and (max-width: 600px) {
+  .legacy {
+    padding: 1px;
+  }
+  .legacy h1 {
+    font-size: 1.5em;
+  }
+  .legacy h2, h3 {
+    font-size: 1.2em;
+  }
+}
