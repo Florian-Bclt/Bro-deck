@@ -1,14 +1,10 @@
-import { useState, useEffect } from 'react';
 import './App.css';
-import CardContainer from './container/CardContainer/CardContainer';
-import HeroSection from './container/heroSection/HeroSection'
-import Sidebar from './components/Sidebar/Sidebar'
+import Homepage from './pages/homepage';
 
 function App() {
   return (
     <>
-      <HeroSection />
-      <Sidebar />
+      <Homepage />
     </>
   );
 }

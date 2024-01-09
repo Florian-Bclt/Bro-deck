@@ -7,7 +7,7 @@ function HeroSection() {
   return (
     <div className='hero-section'>
       <Navbar />
-      <h1>BRO'</h1>
+        <h1>BRO'</h1>
       <SearchBar />
     </div>
   )

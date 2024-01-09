@@ -1,0 +1,9 @@
+.app__sidebar {
+  padding: 2em 4em 0 1em;
+  color: var(--background-color);
+}
+
+.app__sidebar label {
+  display: block;
+  margin: 8px;
+}

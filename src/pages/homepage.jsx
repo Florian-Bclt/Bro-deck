@@ -1,9 +1,14 @@
 import React from 'react'
+import HeroSection from '../container/heroSection/HeroSection'
+import MainContainer from '../container/mainContainer/mainContainer'
 
-function homepage() {
+function Homepage() {
   return (
-    <div>homepage</div>
+    <>
+      <HeroSection />
+      <MainContainer />
+    </>
   )
 }
 
-export default homepage
+export default Homepage

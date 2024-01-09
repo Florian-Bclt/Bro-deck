@@ -1,0 +1,28 @@
+.app_cardContainer {
+  padding: 1em;
+}
+
+.app_cardContainer-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1em;
+}
+
+.app_cardContainer-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  font-size: 1em;
+  color: var(--main-text-color);
+  background-color: var(--dark-variant-color);
+  height: 280px;
+  width: 240px;
+  border-radius: 20px;
+  padding: 2em;
+}
+
+.card-img {
+  width: 5em;
+}

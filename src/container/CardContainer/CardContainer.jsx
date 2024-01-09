@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import './CardContainer.css'
 
 function CardContainer() {
   const [loading, setLoading] = useState(true);
@@ -33,13 +34,12 @@ function CardContainer() {
         {loading && <p>Chargement en cours...</p>}
         {error && <p>Une erreur s'est produite lors du chargement des données.</p>}
         {!loading && !error && (
-          <div>
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '8px' }}>
+          <div className='app_cardContainer'>
+            <div className='app_cardContainer-cards'>
               {cards.slice(0, displayedCards).map((card, index) => (
-                <div key={card.id}>
-                  <img src={cardImages[index]} alt={card.name} />
+                <div className='app_cardContainer-card' key={card.id}>
+                  <img className='card-img' src={cardImages[index]} alt={card.name} />
                   <h3>{card.name}</h3>
-                  <p>{card.desc}</p>
                   {/* Affichez d'autres détails de la carte */}
                 </div>
               ))}
