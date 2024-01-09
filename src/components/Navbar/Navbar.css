@@ -11,6 +11,10 @@
   color: var(--background-color);
 }
 
+.app__navbar-logo {
+  margin-left: 2em;
+}
+
 .app__navbar-links {
   display: flex;
   width: 18em;
@@ -18,6 +22,7 @@
 }
 
 .app__navbar-profil {
+  margin-right: 2em;
   border-radius: 50%;
   background-color: var(--background-color);
 }
@@ -84,5 +89,14 @@
 
   .app__navbar-smallscreen {
     display: flex;
+    margin-right: 1em;
+  }
+
+  .app__navbar-logo {
+    margin-left: 1em;
+  }
+
+  .app__navbar-profil {
+    margin-right: 2em;
   }
 }
